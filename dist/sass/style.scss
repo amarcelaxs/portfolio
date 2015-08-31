@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script|Exo|Niconne|Gabriela);
+*{
+  /*font-family: 'Nunito', sans-serif;*/
+  font-family: 'Gabriela', serif;
+}
+.navbar {
+    padding:20px 0;
+    background-color:#fff;
+  #brand {
+	font-size: 18px;
+    font-weight: bold;
+    color:#777;
+  }
+  #brand:hover{
+    color:purple;
+
+  }
+  .navbar-nav  {
+       li {
+         display:inline;
+         padding:-2px 0;
+         a {
+           font-size: 14px;
+           text-decoration: none;
+           color:#777;
+           font-weight: normal;
+           padding-top:1px;
+           padding-bottom:1px;
+           outline:none;
+         }
+         a:hover{
+           color:purple;
+           background-color:#fff;
+         }
+
+       }
+      li:hover{
+        brackground-color:none !important;
+
+      }
+  }
+}
+#fullpage{
+  #section0 {
+    margin-top: 67px;
+    padding: 150px 0;
+    .perfil {
+      img {
+        border-radius: 50%;
+        width: 150px;
+      }
+    }
+    h1 {
+      font-size: 60px;
+      font-weight: normal;
+      padding-top: 30px;
+    }
+    h2 {
+      font-size: 30px;
+      padding-bottom:150px;
+    }
+  }
+  #section1{
+    background-color:#fff;
+    h1{
+      font-size: 56px;
+      text-align: justify;
+      margin-top:-20px;
+    }
+    img{
+      margin-top:100px;
+    }
+  }
+  #section2{
+    img{
+      margin-top:100px;
+    }
+    ul{
+      padding-bottom: 5px;
+      text-align: left;
+      h1{
+        font-size:20px;
+        font-weight: bold;
+        padding-bottom:3px;
+      }
+      li{
+          font-size: 18px;
+          font-weight: normal;
+          margin-bottom:2px;
+      }
+    }
+  }
+  #section3{
+    img{
+      margin-top:100px;
+    }
+    ul{
+      padding-bottom: 5px;
+      text-align: left;
+      h1{
+        font-size:20px;
+        font-weight: bold;
+        padding-bottom:3px;
+      }
+      li{
+        font-size: 18px;
+        font-weight: normal;
+        margin-bottom:2px;
+      }
+    }
+  }
+  #section4{
+    img{
+      margin-top:100px;
+    }
+    ul{
+      li{
+        font-size: 18px;
+        font-weight: normal;
+        margin-bottom:5px;
+        text-align:left;
+      }
+    }
+  }
+  #section5{
+      .container{
+        i{
+          font-size:8em;
+        }
+      }
+
+  }
+}

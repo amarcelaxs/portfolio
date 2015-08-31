@@ -1,8 +1,8 @@
 body {
-    background: #E6E6E6 url('../images/tiles/back.gif') top repeat-x;
+    background: #E6E6E6 ;
 }
 
-.navbar{
+/*.navbar{
 	background:#a086ab;
 	opacity:0.5;
 }
@@ -24,12 +24,12 @@ body {
    background-color: #000;
    color: #FFF;
  
-   /* Agora a mágica */
+
    border-radius: 50%;
 
 }
 .idhome{
-    text-decoration:bold;
+    text-decoration:none;
     transition: color 0.5s linear 0.1s;
 }
 .idhome > p :hover {
@@ -58,7 +58,7 @@ body {
     color: #31708f;
 }
 
-/*Centraliza verticalmente os link da navbar*/
+
 .navbar-default a {
     margin-top:30px;
 }
@@ -84,13 +84,15 @@ body {
 
 
 }
+
+
 .sobreli{
 	font-size:15px;
 	margin-left: 103px;
 	margin-top: 19px;
 }
 
-}
+
 
 
 @keyframes slidein {
@@ -154,15 +156,12 @@ body {
 	background-color: #B8B8B8;
 	
 
-    /*background-color: #fff;*/
-    /*border: 1px solid transparent;*/
     border-radius: 4px;
     box-shadow: 1 1px 1px rgba(0, 0, 0, 0.05);
-    /*border-style: solid;*/
+
     border-width: 1px;
     border-color: #292929 ;
-    /*border-style: dashed;*/
-	
+
 	 margin-top: 0px;
     
 	margin-top:0px;
@@ -197,11 +196,6 @@ margin-left:50px;
 	position:relative;
 }
 
-/*.nav{
-	background: #A086AB;
-	opacity:0.5;
-	line-height: 50px;
-}*/
 
 .navbarcolor{
 	
@@ -251,4 +245,4 @@ margin-bottom:5px;
 
 #section3{
 top:-170px;
-}
+}*/

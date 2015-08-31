@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script|Exo|Niconne|Gabriela);
+/* line 2, ../sass/style.scss */
+* {
+  /*font-family: 'Nunito', sans-serif;*/
+  font-family: 'Gabriela', serif;
+}
+
+/* line 6, ../sass/style.scss */
+.navbar {
+  padding: 20px 0;
+  background-color: #fff;
+}
+/* line 9, ../sass/style.scss */
+.navbar #brand {
+  font-size: 18px;
+  font-weight: bold;
+  color: #777;
+}
+/* line 14, ../sass/style.scss */
+.navbar #brand:hover {
+  color: purple;
+}
+/* line 19, ../sass/style.scss */
+.navbar .navbar-nav li {
+  display: inline;
+  padding: -2px 0;
+}
+/* line 22, ../sass/style.scss */
+.navbar .navbar-nav li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #777;
+  font-weight: normal;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  outline: none;
+}
+/* line 31, ../sass/style.scss */
+.navbar .navbar-nav li a:hover {
+  color: purple;
+  background-color: #fff;
+}
+/* line 37, ../sass/style.scss */
+.navbar .navbar-nav li:hover {
+  brackground-color: none !important;
+}
+
+/* line 44, ../sass/style.scss */
+#fullpage #section0 {
+  margin-top: 67px;
+  padding: 150px 0;
+}
+/* line 48, ../sass/style.scss */
+#fullpage #section0 .perfil img {
+  border-radius: 50%;
+  width: 150px;
+}
+/* line 53, ../sass/style.scss */
+#fullpage #section0 h1 {
+  font-size: 60px;
+  font-weight: normal;
+  padding-top: 30px;
+}
+/* line 58, ../sass/style.scss */
+#fullpage #section0 h2 {
+  font-size: 30px;
+  padding-bottom: 150px;
+}
+/* line 63, ../sass/style.scss */
+#fullpage #section1 {
+  background-color: #fff;
+}
+/* line 65, ../sass/style.scss */
+#fullpage #section1 h1 {
+  font-size: 56px;
+  text-align: justify;
+  margin-top: -20px;
+}
+/* line 70, ../sass/style.scss */
+#fullpage #section1 img {
+  margin-top: 100px;
+}
+/* line 75, ../sass/style.scss */
+#fullpage #section2 img {
+  margin-top: 100px;
+}
+/* line 78, ../sass/style.scss */
+#fullpage #section2 ul {
+  padding-bottom: 5px;
+  text-align: left;
+}
+/* line 81, ../sass/style.scss */
+#fullpage #section2 ul h1 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+/* line 86, ../sass/style.scss */
+#fullpage #section2 ul li {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 2px;
+}
+/* line 94, ../sass/style.scss */
+#fullpage #section3 img {
+  margin-top: 100px;
+}
+/* line 97, ../sass/style.scss */
+#fullpage #section3 ul {
+  padding-bottom: 5px;
+  text-align: left;
+}
+/* line 100, ../sass/style.scss */
+#fullpage #section3 ul h1 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+/* line 105, ../sass/style.scss */
+#fullpage #section3 ul li {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 2px;
+}
+/* line 113, ../sass/style.scss */
+#fullpage #section4 img {
+  margin-top: 100px;
+}
+/* line 117, ../sass/style.scss */
+#fullpage #section4 ul li {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 5px;
+  text-align: left;
+}
+/* line 127, ../sass/style.scss */
+#fullpage #section5 .container i {
+  font-size: 8em;
+}
